@@ -20,11 +20,6 @@
  */
 
 /**
- * @see Zend_Paginator_ScrollingStyle_Interface
- */
-require_once 'Zend/Paginator/ScrollingStyle/Interface.php';
-
-/**
  * A Yahoo! Search-like scrolling style.  The cursor will advance to
  * the middle of the range, then remain there until the user reaches
  * the end of the page set, at which point it will continue on to

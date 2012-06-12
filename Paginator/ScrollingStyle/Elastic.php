@@ -20,11 +20,6 @@
  */
 
 /**
- * @see Zend_Paginator_ScrollingStyle_Sliding
- */
-require_once 'Zend/Paginator/ScrollingStyle/Sliding.php';
-
-/**
  * A Google-like scrolling style.  Incrementally expands the range to about
  * twice the given page range, then behaves like a slider.  See the example
  * link.

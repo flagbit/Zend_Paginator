@@ -20,11 +20,6 @@
  */
 
 /**
- * @see Zend_Paginator_ScrollingStyle_Interface
- */
-require_once 'Zend/Paginator/ScrollingStyle/Interface.php';
-
-/**
  * A scrolling style in which the cursor advances to the upper bound
  * of the page range, the page range "jumps" to the next section, and
  * the cursor moves back to the beginning of the range.
